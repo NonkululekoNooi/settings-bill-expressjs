@@ -112,21 +112,18 @@ module.exports = function SettingsBill() {
       return total >= criticalLevel;
   }
 
-  function colors(){
-
+ 
+  function naame(){
     if(hasReachedCriticalLevel()){
-        return 'danger'
+      return "danger";
     }
-
-    if(hasReachedWarningLevel()){
-        return 'warning'
-    }
-
+  
+   if(hasReachedWarningLevel()){
+     return "warning";
+   }
   }
 
-  function end(){
-
-  }
+ 
   
 
   return {
@@ -138,6 +135,8 @@ module.exports = function SettingsBill() {
       totals,
       hasReachedWarningLevel,
       hasReachedCriticalLevel,
-      colors,
+      naame
+      
+      
   }
 }
