@@ -1,0 +1,1 @@
+[![Node.js Package](https://github.com/NonkululekoNooi/settings-bill-expressjs/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/NonkululekoNooi/settings-bill-expressjs/actions/workflows/npm-publish.yml)
